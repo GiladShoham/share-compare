@@ -10,6 +10,13 @@ The project contain 2 parts:
 *Disclaimer:*
 Some of this tools requires a massive refactor to apply on your own library. In this project we pre structured it in a way to best fit for each tool to save you this time and keep the instructions short as possible. We will talk about the refactor in the theoretical part.
 
+# Project structure
+This project composed from 2 packages:
+* react - a package that contain few different ui components (such as buttons)
+* utils - a package that contain few different utils components such as array manipulation, date utils etc'.
+
+The components are taken (copied) from OS projects such as react-foundation, date-fns, lodash, ramda.
+
 # Comparing factors
 In order to make the compare more organized we will focus on some common challenges, every one come to share a component library are faced.
 
@@ -44,6 +51,7 @@ How easy and flexible is to version a component. A group of components. What hap
 ## The Bit way
 
 ## Lerna way
+Locked / Independent mode
 
 ## Yarn workspaces way
 
